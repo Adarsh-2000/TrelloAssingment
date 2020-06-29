@@ -1,0 +1,293 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y: hidden;
+    background-image: url(barrett-baker-PDDTc_JEN8c-unsplash.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.navbar {
+    width: 100%;
+    height: 41px;
+    background-color: #555;
+    overflow: auto;
+    overflow-y: hidden;
+    position: fixed;
+}
+
+.navbar a {
+    display: block;
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #000;
+    transition: all 4s ease;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
+
+.topnav-right {
+    float: right;
+}
+
+#title {
+    margin-left: 50%;
+    overflow-x: hidden;
+    padding: 10px;
+    font-style: oblique;
+    color: white;
+}
+
+.nav {
+    margin-top: 41px;
+    width: 100%;
+    height: 44px;
+    background-color: rgba( 128, 128, 128, 0.3);
+    color: white;
+    position: fixed;
+    /* overflow: auto; */
+    overflow-x: hidden;
+}
+
+#subtitle {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#subtitle i:hover {
+    background-color: #555;
+}
+
+
+/* ------------------------------ */
+
+#ver {
+    scroll-padding-bottom: 2px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* .bgimage {
+    /* background-image: url(barrett-baker-PDDTc_JEN8c-unsplash.jpg);
+    background-size: 100% 110%;
+    width: 129%;
+    height: 100vh; 
+} */
+
+#in {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#box1 {
+    width: 218px;
+    height: 172px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#box1:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+#box2 {
+    width: 218px;
+    height: 188px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#box2:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+#box3 {
+    width: 218px;
+    height: 76px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#box3:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+#box4 {
+    width: 218px;
+    height: 76px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#box4:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+#box5 {
+    width: 218px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#box5:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+#box6 {
+    width: 218px;
+    height: 0px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    float: left;
+    margin-left: 10px;
+    margin-right: -155px;
+    ;
+}
+
+#box6:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+#box7 {
+    width: 218px;
+    height: 116px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    float: left;
+    margin-left: 177px;
+    margin-right: -382px;
+}
+
+#box7:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+h5 {
+    margin: 5px;
+    margin-top: -12px;
+}
+
+#more {
+    margin-left: 201px
+}
+
+#box4p {
+    margin-top: -12px;
+}
+
+.bo {
+    margin-top: 105px;
+}
+
+#bu {
+    width: 33%;
+    padding: 8px 6px;
+    margin: 0px 0;
+    color: white;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: olive;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#bu:hover {
+    background-color: navajowhite;
+}
+
+#fu {
+    padding-left: 92px;
+    /* margin-right: 24px; */
+    margin: -3px;
+    cursor: pointer;
+    float: left;
+    margin-top: -35px;
+}
+
+#fu:hover {
+    color: olive;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar #cen {
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.left {
+    position: fixed;
+}
+
+#fu {
+    size: 10px;
+}
+
+.fas fa-pen {
+    margin: 0px;
+}
